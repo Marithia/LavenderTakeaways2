@@ -1727,6 +1727,63 @@ a {
         padding: 0px;
         padding-left: 260px;
     }
+    
+    
+    
+    .os5 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -50px;
+        letter-spacing: 1px;
+    }
+    .os5 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 100px;
+        margin-right: -10px;
+    }
+    
+    .os6 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -50px;
+        letter-spacing: 3px;
+    }
+    .os6 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 210px;
+        margin-right: 0px;
+    }
+    
+    .os61 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -10px;
+        letter-spacing: 3px;
+    }
+    .os61 .price {
+        margin: 0px auto;
+        padding: 0px auto;
+        padding-left: 90px;
+        margin-right: -40px;
+    }
+    .subts3 {
+        font-size: 15px;
+        margin: 0px auto;
+    }
+    .subts4 {
+        font-size: 14.5px;
+        margin: 0px auto;
+    }
+    
+    
     .subt {
         font-weight: bold;
         font-size: 18px;
@@ -1749,6 +1806,38 @@ a {
         font-weight: bold;
         letter-spacing: 0.5px;
     }
+    
+        .info {
+        margin -20px;    
+    }
+    
+    .info h8 {
+    color: #002C3D;
+    letter-spacing: 14px;
+    font-size: 34px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 800;
+}
+.info p{
+    font-size: 11px;
+    display: block;
+    margin: 0px auto;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-align: center;
+}
+.info .print {
+    font-size: 14px;
+    margin: 0px auto;
+    text-align: center;
+    color: #002C3D;
+    display: block;
+}
 /*}*/
 
 @media screen and (min-width: 350px) and (max-width: 410px) {
@@ -2593,6 +2682,62 @@ a {
         padding: 0px;
         padding-left: 330px;
     }
+    
+    
+        .os5 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -50px;
+        letter-spacing: 1px;
+    }
+    .os5 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 170px;
+        margin-right: -10px;
+    }
+    
+    .os6 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -50px;
+        letter-spacing: 3px;
+    }
+    .os6 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 270px;
+        margin-right: 0px;
+    }
+    
+    .os61 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -10px;
+        letter-spacing: 3px;
+    }
+    .os61 .price {
+        margin: 0px auto;
+        padding: 0px auto;
+        padding-left: 150px;
+        margin-right: -40px;
+    }
+    .subts3 {
+        font-size: 15px;
+        margin: 0px auto;
+    }
+    .subts4 {
+        font-size: 14.5px;
+        margin: 0px auto;
+    }
+    
+    
     .subt {
         font-weight: bold;
         font-size: 18px;
@@ -2615,7 +2760,38 @@ a {
         font-weight: bold;
         letter-spacing: 0.5px;
     }
+        .info {
+        margin -20px;    
+    }
     
+    .info h8 {
+    color: #002C3D;
+    letter-spacing: 14px;
+    font-size: 34px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 800;
+}
+.info p{
+    font-size: 13px;
+    display: block;
+    margin: 0px auto;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-align: center;
+}
+.info .print {
+    font-size: 16px;
+    margin: 0px auto;
+    text-align: center;
+    color: #002C3D;
+    display: block;
+}
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
@@ -2785,6 +2961,8 @@ a {
   margin-right: 30px;
   word-wrap: break-word;
 }
+    
+
     
 }
 
@@ -3209,7 +3387,7 @@ a {
     .os0 .price {
         margin: 0px auto;
         padding: 0px;
-        padding-left: 65px;
+        padding-left: 100px;
     }
     .os li{
         display: flex;
@@ -3220,7 +3398,7 @@ a {
     .os .price {
         margin: 0px auto;
         padding: 0px;
-        padding-left: 65px;
+        padding-left: 100px;
     }
     .os2 li{
         display: flex;
@@ -3233,6 +3411,62 @@ a {
         padding: 0px;
         padding-left: 200px;
     }
+    
+    
+        .os5 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -40px;
+        letter-spacing: 1px;
+    }
+    .os5 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 90px;
+        margin-right: 30px;
+    }
+    
+    .os6 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -50px;
+        letter-spacing: 3px;
+    }
+    .os6 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 210px;
+        margin-right: 0px;
+    }
+    
+    .os61 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -10px;
+        letter-spacing: 3px;
+    }
+    .os61 .price {
+        margin: 0px auto;
+        padding: 0px auto;
+        padding-left: 90px;
+        margin-right: -40px;
+    }
+    .subts3 {
+        font-size: 15px;
+        margin: 0px auto;
+    }
+    .subts4 {
+        font-size: 14.5px;
+        margin: 0px auto;
+    }
+    
+    
     .subt {
         font-weight: bold;
         font-size: 18px;
@@ -3258,6 +3492,38 @@ a {
         font-size: 18px;
         font-weight: bold;
     }
+    
+            .info {
+        margin -20px;    
+    }
+    
+    .info h8 {
+    color: #002C3D;
+    letter-spacing: 14px;
+    font-size: 34px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 800;
+}
+.info p{
+    font-size: 13px;
+    display: block;
+    margin: 0px auto;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-align: center;
+}
+.info .print {
+    font-size: 16px;
+    margin: 0px auto;
+    text-align: center;
+    color: #002C3D;
+    display: block;
+}
     
 }
 
@@ -3592,6 +3858,38 @@ a {
         text-align: center;
     }
 */
+            .info {
+        margin -20px;    
+    }
+    
+    .info h8 {
+    color: #002C3D;
+    letter-spacing: 14px;
+    font-size: 34px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 800;
+}
+.info p{
+    font-size: 13px;
+    display: block;
+    margin: 0px auto;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-align: center;
+}
+.info .print {
+    font-size: 16px;
+    margin: 0px auto;
+    text-align: center;
+    color: #002C3D;
+    display: block;
+}
+    
     .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -3888,7 +4186,61 @@ a {
     .os2 .price {
         margin: 0px auto;
         padding: 0px;
-        padding-left: 100px;
+        padding-left: 210px;
+    }
+    
+    
+        .os5 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: 0px;
+        letter-spacing: 3px;
+    }
+    .os5 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: -10px;
+        margin-right: -10px;
+    }
+    
+    .os6 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -10px;
+        letter-spacing: 3px;
+    }
+    .os6 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 190px;
+        margin-right: 0px;
+    }
+    
+    .os61 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: 25px;
+        letter-spacing: 3px;
+    }
+    .os61 .price {
+        margin: 0px auto;
+        padding: 0px auto;
+        padding-left: 55px;
+        margin-right: -40px;
+    }
+    .subts3 {
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    .subts4 {
+        font-size: 20px;
+        margin: 0px auto;
     }
     
 /*
@@ -3956,7 +4308,39 @@ a {
 
 
 @media screen and (min-width: 1287px) and (max-width: 1473px) {
-            h5{
+          .info {
+        margin -20px;    
+    }
+    
+    .info h8 {
+    color: #002C3D;
+    letter-spacing: 14px;
+    font-size: 34px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 800;
+}
+.info p{
+    font-size: 13px;
+    display: block;
+    margin: 0px auto;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-align: center;
+}
+.info .print {
+    font-size: 16px;
+    margin: 0px auto;
+    text-align: center;
+    color: #002C3D;
+    display: block;
+}         
+    
+  h5{
   font-size: 25px;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
@@ -4238,6 +4622,62 @@ a {
         padding-left: 100px;
     }
     
+    
+            .os5 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: 0px;
+        letter-spacing: 3px;
+    }
+    .os5 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: -10px;
+        margin-right: -10px;
+    }
+    
+    .os6 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -10px;
+        letter-spacing: 3px;
+    }
+    .os6 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 190px;
+        margin-right: 0px;
+    }
+    
+    .os61 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: 25px;
+        letter-spacing: 3px;
+    }
+    .os61 .price {
+        margin: 0px auto;
+        padding: 0px auto;
+        padding-left: 55px;
+        margin-right: -40px;
+    }
+    .subts3 {
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    .subts4 {
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    
+    
+    
 /*
     .os0 li{
         display: flex;
@@ -4302,7 +4742,39 @@ a {
 }
 
 @media screen and (min-width: 1474px) {
-        h5{
+            .info {
+        margin -20px;    
+    }
+    
+    .info h8 {
+    color: #002C3D;
+    letter-spacing: 14px;
+    font-size: 34px;
+    margin: 0px auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-weight: 800;
+}
+.info p{
+    font-size: 13px;
+    display: block;
+    margin: 0px auto;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-align: center;
+}
+.info .print {
+    font-size: 16px;
+    margin: 0px auto;
+    text-align: center;
+    color: #002C3D;
+    display: block;
+}   
+    
+    h5{
   font-size: 25px;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
@@ -4618,6 +5090,62 @@ a {
         padding: 0px;
         padding-left: 100px;
     }
+    
+    
+            .os5 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: 0px;
+        letter-spacing: 3px;
+    }
+    .os5 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: -10px;
+        margin-right: -10px;
+    }
+    
+    .os6 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: -10px;
+        letter-spacing: 3px;
+    }
+    .os6 .price {
+        margin: 0px auto;
+        padding: 0px;
+        padding-left: 190px;
+        margin-right: 0px;
+    }
+    
+    .os61 li{
+        display: flex;
+        margin: 0px auto;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-right: 25px;
+        letter-spacing: 3px;
+    }
+    .os61 .price {
+        margin: 0px auto;
+        padding: 0px auto;
+        padding-left: 55px;
+        margin-right: -40px;
+    }
+    .subts3 {
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    .subts4 {
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    
+    
     .subt {
         font-weight: bold;
         font-size: 20px;
