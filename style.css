@@ -3,11 +3,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     border: 20px solid #b04d46;
     margin: 0px auto;
-/*    box-shadow: 5px 5px 5px #688D91;*/
 }
 
-
-
+/*Nav bar*/
 .nav{
 font-family: 'Open Sans', sans-serif;
     
@@ -20,7 +18,6 @@ font-family: 'Open Sans', sans-serif;
             background: #002C3D;
             text-decoration: none;
             padding:10px 25px;
-/*          border-right:1px solid #ffffff;*/
         }
         .nav li{
             position: relative;
@@ -41,27 +38,26 @@ font-family: 'Open Sans', sans-serif;
             display: block;
             margin: 0px auto;
         }
-    
+/*Nav bar end*/
+
+
 h9 {
     margin: 0px auto;
     text-align: center;
     font-size: 34px;
-/*     background: #FF4700;*/
     padding: 10px;
     margin-left: -29px;
     letter-spacing: 7px;
 }
+
+s
 .nav li:hover ul{
   display:block;
     margin: 0px auto;
-    
-    
-/*    margin-bottom: -10px;*/
 }
         .nav ul li a{
             display: block;
             text-align: center;
-/*          border-bottom:1px solid #ffffff;*/
           background: #002C3D;
             margin: 0px auto;
             line-height: 35px;
@@ -81,7 +77,6 @@ h9 {
 /*            z-index: 888888;*/
             margin: 0px auto;
         }
-
 
 
 .info h8 {
@@ -116,14 +111,13 @@ h9 {
     font-style: italic;
 }
 
-
+/*Fried Foods*/
 .ff {
     display: flex;
 
 }
 
 .ffs1 li{
-/*        font-size: 20px;*/
         flex-grow: 1;
         display: block;
         margin: 0px auto;
@@ -139,7 +133,6 @@ h9 {
     }
     
     .ffs2 li{
-/*        font-size: 20px;*/
             flex-grow: 1;
         display: block;
         margin: 0px auto;
@@ -166,9 +159,10 @@ h9 {
         padding: 0px;
         padding-left: 65px;
     }
-    
+/*Fried Foods end*/
+
+/*Burgers and Toasties*/
     .btes li{
-/*        font-size: 20px;*/
         flex-grow: 1;
         display: block;
         margin: 0px auto;
@@ -183,10 +177,8 @@ h9 {
         padding-right: 120px;
     }
     .btest li{
-/*        font-size: 20px;*/
         flex-grow: 1;
         display: block;
-/*        display: flex;*/
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
@@ -199,10 +191,8 @@ h9 {
         padding-right: 115px;
     }
     .btese li{
-/*        font-size: 20px;*/
         flex-grow: 1;
         display: block;
-/*        display: flex;*/
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
@@ -213,9 +203,10 @@ h9 {
         padding: 0px;
         padding-left: 65px;
     }
-    
+/*Burgers and Toasties end*/
+
+/*Chinese Meals*/
     .chms li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
@@ -228,8 +219,9 @@ h9 {
         padding-left: 65px;
         padding-right: 120px;
     }
+/*Chinese Meals end*/
+
     .cscm li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
@@ -241,13 +233,13 @@ h9 {
         padding: 0px;
         padding-left: 150px;
     }
+
+/*Special Crusine*/
     .scs li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .scs .price{
         margin: 0px auto;
@@ -255,27 +247,26 @@ h9 {
         padding-left: 200px;
         padding-right: 130px;
     }
+
+/*Egg Foo Yung*/
     .efy li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .efy .price{
         margin: 0px auto;
         padding: 0px;
         padding-left: 280px;
-/*        padding-right: 60px;*/
     }
+
+/*Sweet and sour*/
     .sas li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .sas .price{
         margin: 0px auto;
@@ -283,26 +274,22 @@ h9 {
         padding-left: 270px;
         padding-right: 120px;
     }
+/*Hot and spicy*/
     .hs li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .hs .price{
         margin: 0px auto;
         padding: 0px;
         padding-left: 120px;
     }
+/*Suchan*/
     .sc li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .sc .price{
         margin: 0px auto;
@@ -341,7 +328,6 @@ h9 {
         padding-bottom: 70px;
     }
     .os0 li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
@@ -355,7 +341,6 @@ h9 {
         padding-right: 50px;
     }
     .os li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
@@ -369,7 +354,6 @@ h9 {
         padding-right: 50px;
     }
     .os2 li{
-/*        font-size: 20px;*/
         display: flex;
         margin: 0px auto;
         line-height: 40px;
@@ -442,25 +426,10 @@ h9 {
     }
 
 
-
-
-/*
-.header {
-  background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
-  width: 100%;
-  z-index: 3;
-}
-*/
-
-
 .nav-links a {
     font-size: 100px;
 }
 
-
-/*#688D91*/
 .max-width {
    position: bottom;
    left: 0;
@@ -500,11 +469,8 @@ header {
   font-size: 30px;
   font-weight: 1000;
   text-decoration: none;
-/*  color: #b04d46;*/
   color: #002C3D;
-/*  color: #000000;*/
   text-align: center;
-/*  padding-top: 50px;*/
   letter-spacing: 15px;
   margin-left: 50px;
 }
@@ -514,30 +480,10 @@ header {
   font-weight: 1000;
   text-decoration: none;
   color: #b04d46;
-/*  color: #000000;*/
   text-align: center;
   margin-top: 80px;
   letter-spacing: 15px;
 }
-
-
-
-
-/*
-.LT {
-  font-size: 30px;
-  font-weight: 1000;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 15px;
-  margin-left: 50px;  
-}
-*/
-
-
-
-
-
 
 .lt {
   display: block;
@@ -637,7 +583,6 @@ h5{
 }
 
 .t {
-/*margin-left: 530px;*/
 }
 
 .t2 {
@@ -680,19 +625,14 @@ h1 {
 }
 
 p {
-/*    position: center;*/
-/*    float: center;*/
     padding-bottom: 10px;
     display: flex;
 }
 
 footer {
-/*    background-color: #b04d46;*/
     border-top: solid #b04d46 2px;
     padding-top: 18px;
     padding-bottom: 18px;
-/*    text-align: center;*/
-/*    position: relative;*/
     display: flex;
     bottom: 0;
     width: 100%;
@@ -719,7 +659,6 @@ a {
 }
 
 .menu1{
-/*  margin: 30px;*/
   margin: 0px auto;
   margin-top: 70px; 
   text-align: center;
@@ -739,8 +678,6 @@ a:hover{
 }
 
 .LT{
-/*    margin: 20px auto;*/
-/*    margin-left: 10px auto;*/
     text-align: center;
     margin-top: 100px;
     font-size: 30px;
@@ -755,11 +692,9 @@ a:hover{
     color: #002C3D;
     text-align: center;
     letter-spacing: 15px;
-/*    margin: 0px auto;*/
     margin-left: 55px;
     margin-top: 80px;
     margin-right: 20px;
-/*    padding-top: 50px;*/
     }
 
     .logo33 {
@@ -769,7 +704,6 @@ a:hover{
     color: #b04d46;
     text-align: center;
     letter-spacing: 15px;
-/*    margin: 0px auto;*/
     margin-top: 80px;
     margin-left: 30px;
     }
@@ -782,15 +716,10 @@ a:hover{
     }
 
 
-
-
-
 @media screen and (min-width: 300px) and (max-width: 480px){
     body{
         border: 15px solid #b04d46;
         margin: 0px auto; 
-/*        padding-right: 50px;*/
-/*        max-width: 300px;*/
     }
 
     .ltl {
@@ -817,15 +746,9 @@ a:hover{
 
     
     .ltlogo2 {
-/*
-    text-decoration: none;
-    text-align: center;
-*/
     width: 30px;
     margin: 0px auto;
     display: inline-block;
-/*    margin-right: -70px;*/
-/*    padding-right: -40px;*/
     padding-top: 10px;
     }
     
@@ -839,13 +762,10 @@ a:hover{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     letter-spacing: 2px;
-/*    margin-top: 115px;*/
-/*    margin-bottom: 115px;*/
     line-height: 20px;
     font-weight: 300;
     word-wrap: break-word;
     margin: 10px auto;
-/*    text-align: justify;*/
     padding: 30px;
 }
 
@@ -853,12 +773,7 @@ a:hover{
        width: 100%;
        height: auto
     } 
-    
-/*
-    table {
-        min-width: 150px;
-    }
-*/
+
     
     td, th {
         display: block;
@@ -876,14 +791,6 @@ a:hover{
         max-width: 253px;
         padding-bottom: 10px;
     }
-/*
-    .sub {
-        margin: 0px;
-        padding: 0px;
-        font-size: 15px;
-    }
-*/
-    
     
     
      /**Start of the nav stuff**/
@@ -935,14 +842,11 @@ a {
 /* Hamburger */
 .hamburger1 {
   height: 25px;
-/*  margin: 295px;*/
   margin-top: 15px;
   margin-right: 10px;
-/*  margin-bottom: 10px;*/
   display: -ms-grid;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-/*  justify-items: center;*/
   z-index: 120;
   float: right;
 }
@@ -986,7 +890,6 @@ a {
 /* Menu */
 .menu1 {
   width: 100%;
-/*  background-color: #02173F;*/
   background-color: #02173F;
   margin: 0;
   display: -ms-grid;
@@ -1224,7 +1127,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .scs .price{
         margin: 0px auto;
@@ -1236,7 +1138,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .efy .price{
         margin: 0px auto;
@@ -1248,7 +1149,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .sas .price{
         margin: 0px auto;
@@ -1259,8 +1159,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .hs .price{
         margin: 0px auto;
@@ -1271,8 +1169,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .sc .price{
         margin: 0px auto;
@@ -1398,8 +1294,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         padding: 0px auto;
-/*        padding-bottom: 20px;*/
-/*        margin-right: 90px;*/
         margin-left: -20px;
         padding-left: 0px;
     }
@@ -1602,7 +1496,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .scs .price{
         margin: 0px auto;
@@ -1615,7 +1508,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .efy .price{
         margin: 0px auto;
@@ -1628,7 +1520,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .sas .price{
         margin: 0px auto;
@@ -1642,7 +1533,6 @@ a {
         line-height: 40px;
         letter-spacing: 3px;
         font-size: 15px;
-/*        padding-left: -20px;    */
     }
     .hs .price{
         margin: 0px auto;
@@ -1656,7 +1546,6 @@ a {
         line-height: 40px;
         font-size: 14.5px;
         letter-spacing: 1px;
-/*        padding-left: -20px;    */
     }
     .sc .price{
         margin: 0px auto;
@@ -1668,7 +1557,6 @@ a {
     .spm2 li{
         font-size: 16px;
         font-weight: 800;
-/*        margin: 0px auto;*/
         margin-bottom: -10px;
     }
     .spm li {
@@ -1846,15 +1734,6 @@ a {
         height: auto;
     }
 }
-/**/
-/*
-@media screen and (min-width: 411px) and (max-width: 480px) {
-    .ph {
-        width: 375px;
-        height: auto;
-    }
-}
-*/
 
 
 @media screen and (min-width: 481px) and (max-width: 700px) {
@@ -1931,14 +1810,11 @@ a {
 /* Hamburger */
 .hamburger1 {
   height: 25px;
-/*  margin: 295px;*/
   margin-top: 15px;
   margin-right: 10px;
-/*  margin-bottom: 10px;*/
   display: -ms-grid;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-/*  justify-items: center;*/
   z-index: 120;
   float: right;
 }
@@ -2125,7 +2001,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 4px;
-/*        padding-left: -50px;    */
     }
     .scs .price{
         margin: 0px auto;
@@ -2137,7 +2012,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 4px;
-/*        padding-left: -50px;    */
     }
     .efy .price{
         margin: 0px auto;
@@ -2149,7 +2023,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 4px;
-/*        padding-left: -50px;    */
     }
     .sas .price{
         margin: 0px auto;
@@ -2162,7 +2035,6 @@ a {
         line-height: 40px;
         letter-spacing: 5px;
         font-size: 15px;
-/*        padding-left: -20px;    */
     }
     .hs .price{
         margin: 0px auto;
@@ -2175,7 +2047,6 @@ a {
         line-height: 40px;
         font-size: 14.5px;
         letter-spacing: 2px;
-/*        padding-left: -20px;    */
     }
     .sc .price{
         margin: 0px auto;
@@ -2187,7 +2058,6 @@ a {
     .spm2 li{
         font-size: 14px;
         font-weight: 800;
-/*        margin: 0px auto;*/
         margin-bottom: -10px;
     }
     .spm li {
@@ -2265,18 +2135,9 @@ a {
     
 }
 
-/*
-@media screen and (min-width: 560px) and (max-width: 650px) {
-   .ph {
-       width: 100%;
-       height: auto
-    } 
-}
-*/
     
 @media screen and (min-width: 650px) and (max-width: 800px) {
    .ph {
-/*        width: 610px;*/
        width: 100%;
         height: auto;
     } 
@@ -2341,14 +2202,11 @@ a {
 /* Hamburger */
 .hamburger1 {
   height: 25px;
-/*  margin: 295px;*/
   margin-top: 15px;
   margin-right: 10px;
-/*  margin-bottom: 10px;*/
   display: -ms-grid;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-/*  justify-items: center;*/
   z-index: 120;
   float: right;
 }
@@ -2392,7 +2250,6 @@ a {
 /* Menu */
 .menu1 {
   width: 100%;
-/*  background-color: #02173F;*/
   background-color: #02173F;
   margin: 0;
   display: -ms-grid;
@@ -2557,7 +2414,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .scs .price{
         margin: 0px auto;
@@ -2570,7 +2426,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .efy .price{
         margin: 0px auto;
@@ -2583,7 +2438,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 2.5px;
-/*        padding-left: -50px;    */
     }
     .sas .price{
         margin: 0px auto;
@@ -2597,7 +2451,6 @@ a {
         line-height: 40px;
         letter-spacing: 3px;
         font-size: 15px;
-/*        padding-left: -20px;    */
     }
     .hs .price{
         margin: 0px auto;
@@ -2611,7 +2464,6 @@ a {
         line-height: 40px;
         font-size: 14.5px;
         letter-spacing: 1px;
-/*        padding-left: -20px;    */
     }
     .sc .price{
         margin: 0px auto;
@@ -2623,7 +2475,6 @@ a {
     .spm2 li{
         font-size: 16px;
         font-weight: 800;
-/*        margin: 0px auto;*/
         margin-bottom: -10px;
     }
     .spm li {
@@ -2682,7 +2533,6 @@ a {
         padding: 0px;
         padding-left: 330px;
     }
-    
     
         .os5 li{
         display: flex;
@@ -2851,14 +2701,11 @@ a {
 /* Hamburger */
 .hamburger1 {
   height: 25px;
-/*  margin: 295px;*/
   margin-top: 15px;
   margin-right: 10px;
-/*  margin-bottom: 10px;*/
   display: -ms-grid;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-/*  justify-items: center;*/
   z-index: 120;
   float: right;
 }
@@ -2902,7 +2749,6 @@ a {
 /* Menu */
 .menu1 {
   width: 100%;
-/*  background-color: #02173F;*/
   background-color: #02173F;
   margin: 0;
   display: -ms-grid;
@@ -3050,14 +2896,11 @@ a {
 /* Hamburger */
 .hamburger1 {
   height: 25px;
-/*  margin: 295px;*/
   margin-top: 15px;
   margin-right: 10px;
-/*  margin-bottom: 10px;*/
   display: -ms-grid;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-/*  justify-items: center;*/
   z-index: 120;
   float: right;
 }
@@ -3101,7 +2944,6 @@ a {
 /* Menu */
 .menu1 {
   width: 100%;
-/*  background-color: #02173F;*/
   background-color: #02173F;
   margin: 0;
   display: -ms-grid;
@@ -3161,7 +3003,6 @@ a {
         margin: 0px auto;
         padding: 0px;
         padding-left: 130px;
-/*        padding-right: 60px;*/
     }
     
     .ffs2 li{
@@ -3177,11 +3018,10 @@ a {
         margin: 0px auto;
         padding: 0px;
         padding-left: 90px;
-/*        padding-right: 60px;*/
     }
     
     .ffs3 li{
-            flex-grow: 1;
+        flex-grow: 1;
         display: block;
         margin: 0px auto;
         line-height: 40px;
@@ -3270,7 +3110,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -3284,7 +3123,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -3298,7 +3136,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -3311,8 +3148,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -3325,8 +3160,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -3356,23 +3189,7 @@ a {
         padding-right: 20px;
         padding-left: 20px;
     }
-/*
-    .spm ul {
-        text-align: left;
-    }
-    .spm li {
-        display: inline-block;
-        flex-grow: 1;
-        line-height: 15px;
-        letter-spacing: 4.5px;
-        margin-left: 32px;
-    }
-    .spms li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-    }
-*/
+
     .spms .price {
         margin: 0px auto;
         padding: 0px;
@@ -3529,336 +3346,8 @@ a {
 
 
 @media screen and (min-width: 1001px) and (max-width: 1286px) {
-/*
-    .ltlogo {
-        display: none;
-        margin: 0px auto;
-    }
-    
-    .logo22 {
-    font-size: 25px;
-    font-weight: 800;
-    text-decoration: none;
-    color: #002C3D;
-    letter-spacing: 4.5px;
-    margin-left: -2px;
-    margin-top: -50px;
-    padding-top: 50px;
-    }
 
-    .logo33 {
-    font-size: 25px;
-    font-weight: 800;
-    text-decoration: none;
-    color: #b04d46;
-    text-align: center;
-    letter-spacing: 4.5px;
-    margin-left: -15px;
-    }
-    
-a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.p-menu1{
-   height: 100%;
-}
-
-.LT{
-    margin: 20px auto;
-    margin-left: 10px auto;
-    text-align: center;
-    margin-top: -1px;
-}
-    
-
-
-
- Hamburger 
-.hamburger1 {
-  height: 25px;
-  margin-top: 15px;
-  margin-right: 10px;
-  display: -ms-grid;
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  z-index: 120;
-  float: right;
-}
-
-.hamburger1 div {
-  background-color: rgb(61, 61, 61);
-  position: relative;
-  width: 22px;
-  height: 2px;
-  margin-top: 1px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-#toggle1 {
-  display: none;
-}
-
-#toggle1:checked + .hamburger1 .top {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  margin-top: 8px;
-}
-
-#toggle1:checked + .hamburger1 .meat {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  margin-top: -2px;
-}
-
-#toggle1:checked + .hamburger1 .bottom {
-  -webkit-transform: scale(0);
-          transform: scale(0);
-}
-
-#toggle1:checked ~ .menu1 {
-  height: 200px;
-}
-*/
-
-
-/* Menu */
-/*.menu1 {*/
-/*  width: 100%;*/
-/*  background-color: #02173F;*/
-/*
-  background-color: #02173F;
-  margin: 0;
-  display: -ms-grid;
-  display: grid;
-  grid-template-rows: 1fr repeat(4, 0.5fr);
-  grid-row-gap: 25px;
-  padding: 0;
-  list-style: none;
-  clear: both;
-  width: auto;
-  text-align: center;
-  height: 0px;
-  overflow: hidden;
-  transition: height .4s ease;
-  z-index: 120;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.menu1 a:first-child {
-  margin-top: 20px;
-}
-
-.menu1 a:last-child {
-  margin-bottom: 0px;
-}
-
-.link1 {
-  width: 100%;
-  margin: 0;
-  padding: 10px 0;
-  font: 700 20px 'Oswald', sans-serif;
-}
-
-.link1:hover {
-  background-color: #fff;
-  color: rgb(61, 61, 61);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-    
-.nav-links {
-  margin: 0px auto;
-}
-*/
-    
-    
-/*
-.ffs1 li{
-        flex-grow: 1;
-        display: block;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .ffs1 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 130px;
-    }
-    
-    .ffs2 li{
-            flex-grow: 1;
-        display: block;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .ffs2 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 90px;
-    }
-    
-    .ffs3 li{
-            flex-grow: 1;
-        display: block;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 20px;
-        padding-right: 20px;        
-    }
-    .ffs3 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 65px;
-    }
-    
-    .btes li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .btes .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 50px;
-    }
-    .btest li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    
-    .btest .price{
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 160px;
-    }
-    .btese li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    
-    .btese .price{
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 150px;
-    }
-    
-    .chms li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 2px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .chms .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 65px;
-    }
-    .cscm li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: -20px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .cscm .price{
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 100px;
-    }
-    .scs li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .scs .price{
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 150px;
-    }
-    .efy li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .efy .price{
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 230px;
-    }
-    .sas li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        letter-spacing: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sas .price{
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 220px;
-    }
-    .hs li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .hs .price{
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 120px;
-    }
-    .sc li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .sc .price{
-        margin: 0px auto;
-        padding: 0px;
-    }
-    .fp ul li{
-        text-align: center;
-    }
-*/
-            .info {
+    .info {
         margin -20px;    
     }
     
@@ -3897,7 +3386,6 @@ a {
   width: auto;
   padding: 50px;
   margin-top: -22px;
-/*  color: #002C3D;*/
   color: #b04d46;
   font-weight: bold;
   font-size: 100px;
@@ -3997,7 +3485,6 @@ a {
         font-size: 20px;
         flex-grow: 1;
         display: block;
-/*        display: flex;*/
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
@@ -4013,7 +3500,6 @@ a {
         font-size: 20px;
         flex-grow: 1;
         display: block;
-/*        display: flex;*/
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
@@ -4058,7 +3544,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .scs .price{
         margin: 0px auto;
@@ -4071,13 +3556,11 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .efy .price{
         margin: 0px auto;
         padding: 0px;
         padding-left: 320px;
-/*        padding-right: 60px;*/
     }
     .sas li{
         font-size: 20px;
@@ -4085,7 +3568,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .sas .price{
         margin: 0px auto;
@@ -4097,8 +3579,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .hs .price{
         margin: 0px auto;
@@ -4110,8 +3590,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .sc .price{
         margin: 0px auto;
@@ -4243,67 +3721,6 @@ a {
         margin: 0px auto;
     }
     
-/*
-    .os0 li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os0 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 65px;
-    }
-    .os li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 65px;
-    }
-    .os2 li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os2 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 200px;
-    }
-    .subt {
-        font-weight: bold;
-        font-size: 18px;
-        letter-spacing: 3px;
-    }
-    .subts {
-        font-size: 15px;
-        letter-spacing: 5px;
-    }
-    .subts1 {
-        font-size: 15px;
-        letter-spacing: 5px;
-    }
-    .subts2 {
-        font-size: 15px;
-        letter-spacing: 0.5px;
-    }
-    .subts22 {
-        font-size: 15px;
-        letter-spacing: 0.5px;
-    }
-    .subtss {
-        font-size: 18px;
-        font-weight: bold;
-    }
-*/
-    
 }
 
 
@@ -4430,7 +3847,6 @@ a {
         font-size: 20px;
         flex-grow: 1;
         display: block;
-/*        display: flex;*/
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
@@ -4446,7 +3862,6 @@ a {
         font-size: 20px;
         flex-grow: 1;
         display: block;
-/*        display: flex;*/
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
@@ -4491,7 +3906,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .scs .price{
         margin: 0px auto;
@@ -4504,13 +3918,11 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .efy .price{
         margin: 0px auto;
         padding: 0px;
         padding-left: 350px;
-/*        padding-right: 60px;*/
     }
     .sas li{
         font-size: 20px;
@@ -4518,7 +3930,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .sas .price{
         margin: 0px auto;
@@ -4530,8 +3941,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .hs .price{
         margin: 0px auto;
@@ -4543,8 +3952,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .sc .price{
         margin: 0px auto;
@@ -4676,73 +4083,10 @@ a {
         margin: 0px auto;
     }
     
-    
-    
-/*
-    .os0 li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os0 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 65px;
-    }
-    .os li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 65px;
-    }
-    .os2 li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os2 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 200px;
-    }
-    .subt {
-        font-weight: bold;
-        font-size: 18px;
-        letter-spacing: 3px;
-    }
-    .subts {
-        font-size: 15px;
-        letter-spacing: 5px;
-    }
-    .subts1 {
-        font-size: 15px;
-        letter-spacing: 5px;
-    }
-    .subts2 {
-        font-size: 15px;
-        letter-spacing: 0.5px;
-    }
-    .subts22 {
-        font-size: 15px;
-        letter-spacing: 0.5px;
-    }
-    .subtss {
-        font-size: 18px;
-        font-weight: bold;
-    }
-*/
-    
 }
 
 @media screen and (min-width: 1474px) {
-            .info {
+    .info {
         margin -20px;    
     }
     
@@ -4864,7 +4208,6 @@ a {
         font-size: 20px;
         flex-grow: 1;
         display: block;
-/*        display: flex;*/
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
@@ -4880,7 +4223,6 @@ a {
         font-size: 20px;
         flex-grow: 1;
         display: block;
-/*        display: flex;*/
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
@@ -4925,7 +4267,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .scs .price{
         margin: 0px auto;
@@ -4939,13 +4280,11 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .efy .price{
         margin: 0px auto;
         padding: 0px;
         padding-left: 280px;
-/*        padding-right: 60px;*/
     }
     .sas li{
         font-size: 20px;
@@ -4953,7 +4292,6 @@ a {
         margin: 0px auto;
         line-height: 40px;
         letter-spacing: 5px;
-/*        padding-left: -50px;    */
     }
     .sas .price{
         margin: 0px auto;
@@ -4966,8 +4304,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .hs .price{
         margin: 0px auto;
@@ -4979,8 +4315,6 @@ a {
         display: flex;
         margin: 0px auto;
         line-height: 40px;
-/*        letter-spacing: 2.5px;*/
-/*        padding-left: -20px;    */
     }
     .sc .price{
         margin: 0px auto;
@@ -5009,43 +4343,7 @@ a {
         padding-right: 20px;
         padding-left: 20px;
     }
-    
-/*
-    .spm2 li{
-        font-size: 23px;
-        font-weight: 800;
-        margin-bottom: -10px;
-    }
-    .spm1 li {
-        font-size: 21px;
-        line-height: 0px;
-        letter-spacing: 4.5px;
-        margin-left: 32px;
-        margin-right: 32px;
-    }
-    .spms li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-    }
-    .spms .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 30px;
-    }
-*/
-/*
-    .spm2 li{
-        font-size: 15px;
-        font-weight: 800;
-        margin-bottom: -10px;
-    }
-    .spm1 ul {
-        list-style: none;
-        display: block;
-        margin: 20px;
-    }
-*/
+
     .o {
         padding-bottom: 70px;
     }
@@ -5092,7 +4390,7 @@ a {
     }
     
     
-            .os5 li{
+     .os5 li{
         display: flex;
         margin: 0px auto;
         line-height: 40px;
@@ -5172,67 +4470,6 @@ a {
         font-weight: bold;
     }
     
-/*
-    .os0 li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os0 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 65px;
-    }
-    .os li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 65px;
-    }
-    .os2 li{
-        display: flex;
-        margin: 0px auto;
-        line-height: 40px;
-        padding-bottom: 20px;
-    }
-    .os2 .price {
-        margin: 0px auto;
-        padding: 0px;
-        padding-left: 200px;
-    }
-    .subt {
-        font-weight: bold;
-        font-size: 18px;
-        letter-spacing: 3px;
-    }
-    .subts {
-        font-size: 15px;
-        letter-spacing: 5px;
-    }
-    .subts1 {
-        font-size: 15px;
-        letter-spacing: 5px;
-    }
-    .subts2 {
-        font-size: 15px;
-        letter-spacing: 0.5px;
-    }
-    .subts22 {
-        font-size: 15px;
-        letter-spacing: 0.5px;
-    }
-    .subtss {
-        font-size: 18px;
-        font-weight: bold;
-    }
-*/
-    
 }
 
 @media screen and (min-width: 2000px) and (max-width: 3000px) {
@@ -5273,7 +4510,6 @@ table {
     margin-top: 70px;
     margin-left: -500px;
     margin-right: -500px;
-/*    border: 10px double #b04d46;*/
     text-align: center;
     margin: 0px auto;
 }
@@ -5283,8 +4519,6 @@ tr, td {
     font-size: 18px;
     margin-left: 0px auto;
     margin-right: 0px auto;
-/*    padding-right: 50px;*/
-/*    padding-left: 70px;*/
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 6px;
@@ -5312,7 +4546,6 @@ button {
 }
 
 #menu {
-/*    border: 10px double #b04d46;*/
     width: 1600px;;
     display: block;
     margin: auto;
@@ -5355,7 +4588,6 @@ button {
     
 }
 .price {
-/*    padding-right: 50px;*/
 }
 
 h6 {
@@ -5422,72 +4654,6 @@ h6 {
     flex-grow: 1;
 }
 
-/*
-.spm {
-    display: block;
-    margin: 0px auto;
-    text-align: center;
-    max-width: 1700px;
-}
-
-.spm ul {
-    display: block;
-    text-align: left;
-}
-
-.spm li .price{
-    max-width: 5000px;
-    margin: 0px auto;
-    display: flex;
-}
-*/
-
-/*
-.fp li {
-    display: inline-flex;
-    max-width: 100px;
-    margin: 0px auto;
-    flex-grow: 1;
-    margin-left: 20px;
-    margin-right: 20px;
-    justify-content: space-around;
-}
-
-.fp .price {
-    margin: 0px auto;
-    padding-left: 30px;
-    display: flex;
-}
-
-.fp2 li {
-    display: inline-flex;
-    max-width: 100px;
-    margin: 0px auto;
-    flex-grow: 1;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.fp2 .price {
-    margin: 0px auto;
-    padding-left: 30px;
-    display: flex;
-}
-*/
-
-/*
-.spms {
-    display: inline-flex;
-    flex-grow: 1;
-}
-*/
-
-/*
-.fp ul li:first-child{
-    margin: 0px auto;
-}
-*/
-
 .o {
     display: block;
     margin: 0px auto;
@@ -5530,7 +4696,6 @@ h6 {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-/*  color: #002C3D;*/
   color: #b04d46;
   font-weight: bold;
   font-size: 25px;
@@ -5547,17 +4712,6 @@ h6 {
 .prev:hover, .next:hover {
   color: #002C3D;
 }
-
-/*
-.h7 {
-  display: inline-block;
-  margin: 0px auto;
-  font-size: 18px;
-  font-weight: 800;
-  margin-left: 120px;
-}
-*/
-
 
 .spm {
     display: block;
@@ -5578,7 +4732,6 @@ h6 {
 
 .spms  li {
     display: flex;
-/*    flex-wrap: wrap;*/
     margin: 0px auto;
 }
 
